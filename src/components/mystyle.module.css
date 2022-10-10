@@ -1,6 +1,6 @@
 body{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1316px;
     left: 0px;
 
@@ -227,7 +227,7 @@ body{
 }
 .search_pic{
     position: absolute;
-    left: 17px  ;
+    left: 17px;
     right: 0%;
     top: 17px;
     bottom: 0%;
@@ -235,7 +235,7 @@ body{
 }
 .header_pic{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 481px;
     left: 0px;
     top: 0px;
@@ -975,7 +975,7 @@ ul li::before {
 
 .scroll{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 570px;
     left: 0px;
     top: 1436px;
@@ -1011,7 +1011,7 @@ ul li::before {
 
 .scroll_banners{
     display:flex;
-    width: 1440px;
+    width: 100%;
     height: 514px;
     left: 0px;
     top: 156px;
@@ -1139,7 +1139,6 @@ ul li::before {
     width: 1080px;
     height: 514px;
     display: flex;
-    overflow-x: scroll;
     left: 100px;
 }
 
@@ -1226,28 +1225,17 @@ flex-grow: 0;
 .scroll_banner_2_img{
     position: absolute;
     width: 440px;
-    height: 609px;
+    height: 514px;
     left: 589px;
     top: 0px;
     z-index: 9999;
     transform: rotate(180deg);
-}
-.scroll_2_screen{
-    position: absolute;
-    width: 392.69px;
-    height: 561.74px;
-    left: 613px;
-    top: 24px;
-    background-color: #FFFFFF;
-    z-index: 999999;
-    border-radius: 20px;
 }
 .scroll_banner_3{
     position:relative;
     width: 1080px;
     height: 514px;
     display: flex;
-    overflow-x: scroll;
     left: 140px;
 }
 .scroll_banner_3_frame{
@@ -1270,8 +1258,65 @@ flex-grow: 0;
     position: absolute;
     width: 423px;
     height: 130px;
-    left: 2315px;
-    top: 164px;
+    left: 45px;
+    top: 50px;
+}
+.scroll_banner_3_title{
+    width: 423px;
+    height: 52px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.scroll_banner_3_text{
+    width: 309px;
+    height: 66px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.scroll_banner_3_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 213px;
+    height: 46px;
+    left: 45px;
+    top: 300px;
 }
 .scroll_banner_3_img{
     position: absolute;

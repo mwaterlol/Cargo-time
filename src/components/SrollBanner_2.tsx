@@ -16,7 +16,6 @@ export function ScrollBanner_2(){
                         <a href='#'>Инструкция по установке</a>
                         </div>
                     </div>
-                    <div className={styles.scroll_2_screen}></div>
                     <img className={styles.scroll_banner_2_img} src={require("./templates/iPad Pro 11.png")}></img>
         </div>
     )
