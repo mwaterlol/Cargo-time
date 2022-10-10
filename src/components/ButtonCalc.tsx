@@ -1,0 +1,52 @@
+import styles from './mystyle.module.css'
+import { useState } from "react"
+import { CSSTransition } from 'react-transition-group';
+
+export interface ButtonParams {
+    heightBtn: string
+    widthBtn: string
+    leftBtn: string
+    topBtn: string
+    valueBtn: string
+  }
+export function ButtonCalc({
+    heightBtn,
+    widthBtn,
+    leftBtn,
+    topBtn,
+    valueBtn,
+    
+}: ButtonParams){
+
+    const [isHover, setIsHover] = useState(false);
+
+   const handleMouseEnter = () => {
+      setIsHover(!isHover);
+   };
+
+
+    return(
+        <button type='button' value={valueBtn}
+            style={{
+                position: "absolute",
+                width: widthBtn,
+                height: heightBtn,
+                left: leftBtn,
+                top: topBtn,
+
+                background: isHover ? "#FFFFFF": "#F8F8F9",
+                borderRadius: "8px",
+                border: isHover ? "1px solid #BF271B" : ""
+            }}
+            onClick={handleMouseEnter}>
+            <p style={{
+                fontFamily: "Raleway",
+                fontStyle: "normal",
+                fontWeight: "400",
+                fontSize: "14px",
+                lineHeight: "120%",
+                color: "#000000"
+            }}>{valueBtn}</p>
+        </button>
+    )
+}
