@@ -19,14 +19,13 @@ export function Traker({
     const [isActiveBtn1, setIsActiveBtn1] = useState(true)
     const [isActiveBtn2, setIsActiveBtn2] = useState(false)
 
-    const [details1, setDetails1] = useState(false)
-    const [details2, setDetails2] = useState(false)
-    const [details3, setDetails3] = useState(false)
-    const [details4, setDetails4] = useState(false)
-    let lastChange:string = "";
+    const [companyBtn1, setCompanyBtn1] = useState(false)
+    const [companyBtn2, setCompanyBtn2] = useState(false)
+    const [companyBtn3, setCompanyBtn3] = useState(false)
+    const [companyBtn4, setCompanyBtn4] = useState(false)
 
     
-
+    // using these 2 function we change the visibility of the blocks "Простой трекинг" and "Пакетная загрузка" inside the tracker frame
     const handleClick1 = () => {
         setIsActiveBtn1(() => true)
         setIsActiveBtn2(() => false)
@@ -106,10 +105,12 @@ export function Traker({
                                     </div>
                             </div>
                             <p className="traker_btn_title">Наиболее вероятные варианты:</p>
-                            <ButtonCalc widthBtn='312px' heightBtn='46px' leftBtn='0px' topBtn='354px' valueBtn='W.E.C.(West European Container) Lines' isHover={details1} props={(details1: boolean) => {setDetails1(details1);setDetails2(false);setDetails3(false);setDetails4(false)}}/>
-                            <ButtonCalc widthBtn='146px' heightBtn='46px' leftBtn='324px' topBtn='354px' valueBtn='Emkay Lines' isHover={details2} props={(details2: boolean ) => {setDetails2(details2);setDetails1(false);setDetails3(false);setDetails4(false);}}/>
-                            <ButtonCalc widthBtn='127px' heightBtn='46px' leftBtn='0px' topBtn='412px' valueBtn='Pan Asia Line' isHover={details3} props={(details3: boolean ) => {setDetails3(details3);setDetails1(false);setDetails2(false);setDetails4(false);}}/>
-                            <ButtonCalc widthBtn='151px' heightBtn='46px' leftBtn='139px' topBtn='412px' valueBtn='PSL Navegacao' isHover={details4} props={(details4: boolean ) => {setDetails4(details4);setDetails1(false);setDetails2(false);setDetails3(false);}}/>
+                            {/* here we have 4 buttons with the most popular companies in addition to the size and indents we pass to the buttons variables that responds to the visibility(isHover) 
+                            and a function tha changes the visibility of a specific button to visible and visibility of other buttons to invisible*/}
+                            <ButtonCalc widthBtn='312px' heightBtn='46px' leftBtn='0px' topBtn='354px' valueBtn='W.E.C.(West European Container) Lines' isHover={companyBtn1} props={(companyBtn1: boolean) => {setCompanyBtn1(companyBtn1);setCompanyBtn2(false);setCompanyBtn3(false);setCompanyBtn4(false)}}/>
+                            <ButtonCalc widthBtn='146px' heightBtn='46px' leftBtn='324px' topBtn='354px' valueBtn='Emkay Lines' isHover={companyBtn2} props={(companyBtn2: boolean ) => {setCompanyBtn2(companyBtn2);setCompanyBtn1(false);setCompanyBtn3(false);setCompanyBtn4(false);}}/>
+                            <ButtonCalc widthBtn='127px' heightBtn='46px' leftBtn='0px' topBtn='412px' valueBtn='Pan Asia Line' isHover={companyBtn3} props={(companyBtn3: boolean ) => {setCompanyBtn3(companyBtn3);setCompanyBtn1(false);setCompanyBtn2(false);setCompanyBtn4(false);}}/>
+                            <ButtonCalc widthBtn='151px' heightBtn='46px' leftBtn='139px' topBtn='412px' valueBtn='PSL Navegacao' isHover={companyBtn4} props={(companyBtn4: boolean ) => {setCompanyBtn4(companyBtn4);setCompanyBtn1(false);setCompanyBtn2(false);setCompanyBtn3(false);}}/>
                             <button className="traker_btn_find">
                                     Найти контейнер
                             </button>

@@ -21,12 +21,6 @@ export function ButtonCalc({
     props
 }: ButtonParams){
 
-//     const [isHover, setIsHover] = useState(false);
-
-//    const handleMouseEnter = () => {
-//       setIsHover(!isHover);
-//    };
-    
 
     return(
         <button type='button' value={valueBtn}
