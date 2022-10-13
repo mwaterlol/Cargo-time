@@ -1,0 +1,433 @@
+.traker_{
+    position: absolute;
+    top:611px;
+    min-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.traker{
+    position: absolute;
+    width: 1300px;
+    height: 630px;
+    top: 0px;
+    display: flex;
+    
+}
+.traker_button_1_text{
+    position: absolute;
+    width: 111px;
+    height: 46px;
+    left: 28px;
+    top: 12px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.traker_button_2_div{
+    position: absolute;
+    width: 244px;
+    height: 46px;
+    left: 20px;
+    top: 12px;
+    text-align: left;
+}
+
+.traker_button_2_text{
+    position: absolute;
+    width: 244px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+.traker_frame{
+    position: absolute;
+    width: 1300px;
+    height: 560px;
+    left: 70px;
+    top: 100px;
+    background: #FFFFFF;
+    border-radius: 0px 20px 20px 20px;
+}
+.traker_forms{
+    position: absolute;
+    width: 470px;
+    height: 499px;
+    left: 38px;
+    top: 20px;
+}
+.traker_simple_text{
+    position: absolute;
+    width: 470px;
+    height: 121px;
+    left: 0px;
+    top: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+.traker_pic{
+    position: absolute;
+    width: 732px;
+    height: 560px;
+    left: 568px;
+    top: 0px;
+}
+
+.traker_simple_inputs{
+    position: absolute;
+    width: 470px;
+    height: 144px;
+    left: 0px;
+    top: 143px;
+
+}
+.search_type{
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    left: 0px;
+    top: 22px;
+}
+.search_type_title{
+    position: absolute;
+    width: 66px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    opacity: 0.5;
+}
+.search_type_select{
+    position: absolute;
+    width: 225px;
+    height: 46px;
+    left: 0px;
+    top: 15px;
+    border: 1px solid #B6B6B6;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    padding-left:17px;
+}
+.seadch_id{
+    position: absolute;
+    width: 225px;
+    height: 65px;
+    left: 235px;
+    top: 22px;
+}
+.search_id_title{
+    position: absolute;
+    width: 132px;
+    height: 14px;
+    left: 245px;
+    top: 22px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    opacity: 0.5;
+}
+.search_id_input{
+    box-sizing: border-box;
+    position: absolute;
+    width: 225px;
+    height: 46px;
+    left: 245px;
+    top: 35px;
+    border: 1px solid #B6B6B6;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    padding-left:17px;
+}
+.search_id_input::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+  }
+.search_company{
+    position: absolute;
+    width: 470px;
+    height: 65px;
+    left: 0px;
+    top: 101px;
+}
+.search_company_title{
+    position: absolute;
+    width: 150px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    opacity: 0.5;
+}
+.search_company_select{
+    position: absolute;
+    width: 470px;
+    height: 46px;
+    left: 0px;
+    top: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    border: 1px solid #B6B6B6;
+    border-radius: 8px; 
+    padding-left:17px;
+}
+.traker_btn_title{
+    position: absolute;
+    width: 214px;
+    height: 17px;
+    left: 0px;
+    top: 325px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+.traker_btn_find{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 158px;
+    gap: 10px;
+    position: absolute;
+    width: 470px;
+    height: 53px;
+    left: 0px;
+    top: 476px;
+    background: #BF271B;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.traker_btn_find:hover{
+    border: 1px solid #BF271B;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color:#000000;
+}
+
+.package_text{
+    position: absolute;
+    width: 470px;
+    height: 93px;
+    left: 0px;
+    top: 30px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+.package_download{
+    position: absolute;
+    width: 520px;
+    height: 103px;
+    left: 0px;
+    top: 156px;
+
+}
+.package_download_pic{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+}
+.package_download_text{
+    position: absolute;
+    width: 428px;
+    height: 38px;
+    left:57px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.package_download_text_bottom{
+    position: absolute;
+    width: 428px;
+    height: 17px;
+    top:42px;
+    left:55px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #707070;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.package_download_text_info{
+    position: absolute;
+    width: 470px;
+    height: 34px;
+    left: 0px;
+    top: 69px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+.package_add{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 470px;
+    height: 41px;
+    left: 0px;
+    top: 355px;
+}
+
+.package_add_pic{
+    width: 41px;
+    height: 41px;
+    position: absolute;
+}
+
+.package_add_text{
+    position: absolute;
+    width: 428px;
+    height: 38px;
+    left:57px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    text-decoration-line: underline;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.package_add_text_bottom{
+    position: absolute;
+    width: 428px;
+    height: 17px;
+    top:23px;
+    left:55px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #707070;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.package_add_text_info{
+    width: 428px;
+    height: 17px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #707070;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.package_comment{
+    position: absolute;
+    width: 470px;
+    height: 17px;
+    left: 0px;
+    top: 428px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}

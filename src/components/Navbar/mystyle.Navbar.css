@@ -1,0 +1,213 @@
+.navbar{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 31px;
+    bottom: 0%;
+    height: 68px;
+    min-width: 1396px;
+    background: #FFFFFF;
+    opacity: 0.95;
+    box-shadow: 0px 0px 20px rgba(199, 199, 199, 0.16);
+    border-radius: 12px;
+    z-index: 999;
+}
+
+.c_vector{
+    position: absolute;
+    left: 0%;
+    top: 25.91px;
+    bottom: 18.98%;
+
+}
+
+.a_vector{
+    position: absolute;
+    left: 11.87%;
+    top: 25.91px;
+    bottom: 18.98%;
+
+}
+
+.r_vector{
+    position: absolute;
+    left: 24.93%;
+    right: 68.3%;
+    top: 25.91px;
+    bottom: 21.53%;
+}
+
+.g_vector{
+    position: absolute;
+    left: 32.57%;
+    right: 96.53px;
+    top: 25.91px;
+    bottom: 0%;
+}
+
+.o_vector{
+    position: absolute;
+    top: 25.91px;
+    left: 45.04%;
+}
+
+.t_vector{
+    position: absolute;
+    left: 57.1%;
+    right: 35.79%;
+    top: 23.05px;
+    bottom: 20.8%;
+
+}
+
+.i_vector{
+    position: absolute;
+    left: 65.82%;
+    top: 26.31px;
+
+}
+.i_2_vector{
+    position: absolute;
+    left: 65.82%;
+    top: 20px;
+}
+
+.m_vector{
+    position: absolute;
+    left: 70.78%;
+    top: 25.91px;
+}
+
+.e_vector{
+    position: absolute;
+    left: 89.07%;
+    top: 25.91px;   
+
+}
+.menu{
+    position: absolute;
+    left: 21.78%;
+    right: 9.46%;
+    top: 38.24%;
+    bottom: 38.24%;
+    width: 960px;
+}
+.link_1{
+    position: absolute;
+    left: 0px;    
+    top: 0px;
+    width: 146px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.link_2{
+    position: absolute;
+    left: 176px;
+    right: 59.17%;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    width:90px;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.link_3{
+    position: absolute;
+    left: 296px;
+    right: 46.13%;
+    width: 152px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+.link_4{
+    position: absolute;
+    left: 478px;
+    right: 35.67%;
+    width:116px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+
+}
+
+.link_5{
+    position: absolute;
+    left: 624px;
+    right: 23.14%;
+    width:145px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
+.link_6{
+    position: absolute;
+    left: 799px;
+    right: 16.19%;
+    width:67px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.link_7{
+    position: absolute;
+    left: 896px;
+    right: 9.46%;
+    top: 0px;
+    width: 64px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+.search{
+    position: absolute;
+    left: 92.69%;
+    right: 3.44%;
+    top: 10.29%;
+    bottom: 10.29%;
+    background: #EDEFF0;
+    border-radius: 8px;
+    height: 54px;
+    width: 54px;
+}
+.search_pic{
+    position: absolute;
+    left: 17px;
+    right: 0%;
+    top: 17px;
+    bottom: 0%;
+}
