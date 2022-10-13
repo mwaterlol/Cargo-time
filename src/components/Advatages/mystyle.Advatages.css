@@ -1,0 +1,53 @@
+.advatages{
+    position: absolute;
+    min-width: 1440px;
+    width:100%;
+    top:2841px;
+    height:526px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.advatages_frame{
+    position: absolute;
+    width: 1300px;
+    height: 406px;
+    top: 0px;
+    background-color: #F8F8F9;
+}
+.advatages_title{
+    position: absolute;
+    width: 512px;
+    height: 42px;
+    left: 660px;
+    top: 74px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.advatages_list{
+    position: absolute;
+    width: 503px;
+    height: 188px;
+    left: 680px;
+    top: 153px;
+    
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #000000;
+}
+li {
+    margin-bottom: 8px; 
+   }

@@ -1,0 +1,161 @@
+.banners{
+    position: absolute;
+    width: 852px;
+    height: 170px;
+    right:5%;
+    top: 411px;
+}
+
+.banner_1{
+    position: absolute;
+    width: 418px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.title_and_button_banner_1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 225px;
+    height: 86px;
+    left:176px;
+    top:48px;
+}
+
+.title_banner_1{
+    width: 225px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: right;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button_banner_1{
+    width: 126.63px;
+    height: 22px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button_banner_1_text{
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: 88.37px;
+    top: 64px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #707070;
+}
+
+.button_banner_1_img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 27.63px;
+    height: 6px;
+    left: 187.37px;
+    top: 74px;
+}
+.banner_1_img{
+    position: absolute;
+    width: 70px;
+    height: 122px;
+    left: 46px;
+    top: 48px;
+}
+
+.banner_2{
+    position: absolute;
+    width: 418px;
+    height: 170px;
+    left: 434px;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.title_and_button_banner_2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 215px;
+    height: 86px;
+    left: 176px;
+    top: 48px;
+}
+
+.title_banner_2{
+    width: 225px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: right;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.button_banner_2{
+    width: 126.63px;
+    height: 22px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button_banner_2_text{
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: 88.37px;
+    top: 64px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #707070;
+}
+
+.button_banner_2_img{
+    box-sizing: border-box;
+    position: absolute;
+    width: 27.63px;
+    height: 6px;
+    left: 187.37px;
+    top: 74px;
+}
+.banner_2_img{
+    position: absolute;
+    width: 140px;
+    height: 122px;
+    left: 434px;
+    top: 48px;
+}
