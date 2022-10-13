@@ -10,6 +10,7 @@ export function BannersScroll(){
             <div className="scroll_title">Дополнительные возможности</div>
             <hr className="scroll_line"></hr>
             <div className="scroll_banners">
+                {/* using react-scroll-horizontal to make a carousel */}
                 <HorizontalScroll>
                     <ScrollBanner_1/>
                     <ScrollBanner_2/>
