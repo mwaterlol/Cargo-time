@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './mystyle.Traker.css'
 import { CSSTransition } from 'react-transition-group';
 import { ButtonCalc } from '../ButtonsCalc/ButtonCalc';
-
+import { MapContainer, Marker, Polyline, TileLayer } from 'react-leaflet'
+import 'leaflet/dist/leaflet.css';
 export interface InputsCalculator {
     searchType: string
     containerId: string
@@ -15,7 +16,6 @@ export function Traker({
     containerId,
     company
 }: InputsCalculator){
-
     const [isActiveBtn1, setIsActiveBtn1] = useState(true)
     const [isActiveBtn2, setIsActiveBtn2] = useState(false)
 
@@ -36,7 +36,6 @@ export function Traker({
         setIsActiveBtn1(() => false)
         setIsActiveBtn2(() => true)
     }
-    
     return(
         <div className="traker_">
         <div className="traker" id="traker">
@@ -146,7 +145,15 @@ export function Traker({
                         </div>
                     </CSSTransition>
                 </div>
-                <img className="traker_pic" src={require("../templates/map.png")}></img>
+                
+                <div className='traker_pic'>
+                <MapContainer center={[45.4, -75.7]} zoom={2}scrollWheelZoom={false}>
+                    <TileLayer
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    />
+                </MapContainer>
+                </div>
             </div>
         </div>
         </div>

@@ -86,10 +86,17 @@
     position: absolute;
     width: 732px;
     height: 560px;
-    left: 568px;
-    top: 0px;
-}
+    top:0px;
+    left:568px;
 
+}
+.leaflet-container {
+    position: absolute;
+    width: 732px;
+    height: 560px;
+    border:0px;
+
+}
 .traker_simple_inputs{
     position: absolute;
     width: 470px;
