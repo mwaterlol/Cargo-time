@@ -1,0 +1,346 @@
+.scroll_banner_1{
+    width: 1080px;
+    height: 514px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+.scroll_banner_1_frame{
+    position: absolute;
+    width: 1080px;
+    height: 400px;
+    left: 70px;
+    top: 114px;
+    background: #F8F8F9;
+    border-radius: 20px;
+}
+.scroll_banner_1_title_and_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 588px;
+    height: 182px;
+    left: 45px;
+    top: 50px;
+}
+.scroll_banner_1_title  {
+    width: 450px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.scroll_banner_1_text{
+    width: 588px;
+    height: 118px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.scroll_banner_1_quote{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 21px 26px;
+    gap: 10px;
+    position: absolute;
+    width: 413px;
+    height: 99px;
+    left: 45px;
+    top: 251px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.scroll_banner_1_img{
+    position: absolute;
+    width: 315px;
+    height: 514px;
+    left: 765px;
+    top: 0px;
+    z-index: 9999;
+}
+.scroll_banner_2{
+    position:relative;
+    width: 1080px;
+    height: 514px;
+    display: flex;
+    left: 100px;
+}
+
+.scroll_banner_2_frame{
+    position: absolute;
+    width: 1080px;
+    height: 400px;
+    left: 0px;
+    top: 114px;
+    background: #F8F8F9;
+    border-radius: 20px;
+}
+.scroll_banner_2_title_and_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 588px;
+    height: 130px;
+    left: 45px;
+    top: 50px;
+
+}
+.scroll_banner_2_title{
+    width: 330px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    flex: none;
+    order: 0;
+flex-grow: 0;
+}
+.scroll_banner_2_text{
+    width: 588px;
+    height: 66px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.scroll_circle_1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 45px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_circle_2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 51.42px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_circle_3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 55.2px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_circle_4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 58.99px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_circle_5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 62.77px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_circle_6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 66.56px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_circle_7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 27.1px;
+    height: 27.1px;
+    left: 70.35px;
+    top: 200px;
+
+    border: 1px solid #BE3A3A;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+}
+.scroll_2_stmall_text{
+    position: absolute;
+    width: 280px;
+    height: 14px;
+    left: 45px;
+    top: 234px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #707070;
+}
+.scroll_banner_2_advantage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 278px;
+    height: 46px;
+    left: 45px;
+    top: 300px;
+}
+.scroll_banner_2_img{
+    position: absolute;
+    width: 440px;
+    height: 514px;
+    left: 589px;
+    top: 0px;
+    z-index: 9999;
+    transform: rotate(180deg);
+}
+
+.scroll_banner_3{
+    position:relative;
+    width: 1080px;
+    height: 514px;
+    display: flex;
+    left: 140px;
+}
+.scroll_banner_3_frame{
+    position: absolute;
+    width: 1080px;
+    height: 400px;
+    left: 0px;
+    top: 114px;
+    background: #F8F8F9;
+    border-radius: 20px;
+}
+.scroll_banner_3_title_and_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 453px;
+    height: 130px;
+    left: 45px;
+    top: 50px;
+}
+.scroll_banner_3_title{
+    width: 453px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.scroll_banner_3_text{
+    width: 309px;
+    height: 66px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.scroll_banner_3_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    position: absolute;
+    width: 213px;
+    height: 46px;
+    left: 45px;
+    top: 300px;
+}
+.scroll_banner_3_img{
+    position: absolute;
+    width: 440px;
+    height: 514px;
+    left: 589px;
+    top: 0px;
+    z-index: 9999;
+    transform: rotate(180deg);
+}
